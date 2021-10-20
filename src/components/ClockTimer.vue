@@ -63,12 +63,14 @@ export default {
                 this.hours = this.hours - 1
                 interval()
               }
+              this.minutes = 59
               break;
 
               default:
               this.minutes = this.minutes - 1
               interval()
             }
+            this.seconds = 59
             break;
             
             default:
